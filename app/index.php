@@ -1,3 +1,5 @@
 <?php
 
-$greeting = 'Hola mon!';
+$name = 'Isaac';
+
+$greeting = 'Hola $name';
