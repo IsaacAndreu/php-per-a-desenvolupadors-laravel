@@ -6,12 +6,7 @@ require 'app/helpers.php';
 
 require 'app/Task.php';
 
-
-$dbh = connectDB($config);
-
-$statement = $dbh->prepare('SELECT * FROM tasks;');
-
-$statement->execute();
+$tasks = fetchAllTasks(connectDB($config));
 
 $greeting = greet();
 
