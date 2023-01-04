@@ -8,7 +8,7 @@
     <title>Document</title>
     <style>
         header {
-            background: beige;
+            background: aqua;
             padding: 2em;
             text-align: center;
         }
@@ -17,24 +17,25 @@
 <body>
 <header>
     <h1><?=$greeting;?></h1>
+
     <table>
         <tr>
-           <th>Id</th>
-           <th>Title</th>
-           <th>Description</th>
-           <th>Completed</th>
+            <th>Id</th>
+            <th>Tittle</th>
+            <th>Description</th>
+            <th>Completed</th>
         </tr>
-        <?php foreach ($tasks as $task): ?>
+
+    <?php foreach ($tasks as $task): ?>
         <tr>
             <td><?=$task->id;?></td>
-            <td><?=$task->title;?></td>
+            <td><?=$task->tittle;?></td>
             <td><?=$task->description;?></td>
             <td><?=$task->completed;?></td>
         </tr>
-        <?php endforeach; ?>
+    <?php endforeach; ?>
 
     </table>
 </header>
 </body>
 </html>
-

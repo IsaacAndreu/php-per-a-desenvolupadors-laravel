@@ -1,6 +1,5 @@
 {
-    "name": "alumne/php-per-a-desenvolupadors-laravel",
-    "description": "bla bla",
+    "name": "alumne/joanboix_repo-php",
     "type": "project",
     "autoload": {
         "classmap": [
@@ -9,8 +8,8 @@
     },
     "authors": [
         {
-            "name": "IsaacAndreu",
-            "email": "isaacandreu@iesebre.com"
+            "name": "joanboix",
+            "email": "joanboix@iesebre.com"
         }
     ],
     "require": {}
