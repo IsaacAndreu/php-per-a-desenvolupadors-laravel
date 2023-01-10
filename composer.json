@@ -1,17 +1,15 @@
 {
     "name": "alumne/php-per-a-desenvolupadors-laravel",
+    "description": "bla bla",
     "type": "project",
     "autoload": {
         "classmap": [
             "./"
-        ],
-        "files": [
-            "framework/helpers.php"
         ]
     },
     "authors": [
         {
-            "name": "isaacandreu",
+            "name": "IsaacAndreu",
             "email": "isaacandreu@iesebre.com"
         }
     ],
